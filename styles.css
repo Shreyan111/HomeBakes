@@ -1,0 +1,227 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.topic{
+	padding: 0 0 0 20px;
+}
+.Line1{
+	margin-top: 30px;
+}
+.header{
+	background-color: #fff3f1;
+	margin:0;
+	padding: 0;
+}
+.mid{
+	background-color: #fff3f1;
+}
+.card-body{
+	background-color: #fff3f1;
+}
+h1,h2,h3,h4,h5,h6,p {
+font-family: "Nunito";
+}
+#cake {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(50%,-50%);
+  z-index: 100;
+}
+#donut {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(50%,-50%);
+  z-index: 100;
+}
+u{
+	text-decoration: underline;
+	text-underline-offset: 10px;
+  	text-decoration-color: #f084af;
+}
+.ellipse2{
+	transform: rotate(90deg);
+	position: absolute;
+	top: -3rem;
+	left: 35rem;
+}
+.ellipse3{
+	transform: rotate(180deg);
+	position: relative;
+	top: 10rem;
+	right: -7rem;
+}	
+@media screen and (max-width: 1030px){
+	.ellipse2{
+		transform: rotate(90deg);
+		position: absolute;
+		top: -5rem;
+		left: 21rem;
+	}
+}
+@media screen and (max-width: 768px){
+	.lady{
+		height: 400px;
+		width: 255px;
+		position:relative; 
+		bottom:130;
+	}
+	.bakery{
+		padding: 0 0 0 210px;
+	}
+	.Recipes{
+		padding: 0 0 0 10px;
+	}
+	.Tricks{
+		padding: 0 0 0 10px;
+	}
+	.Shops{
+		padding: 0 0 0 10px;
+	}
+	.Buy{
+		padding: 0 0 0 10px;
+	}
+	.Contact{
+		padding: 0 0 0 10px;
+	}
+	.navbar-toggler{
+		margin: 0 10px 0 0;
+	}
+	.ellipse2{
+		display: none;
+	}
+}
+@media screen and (max-width: 440px){
+	.lady{
+		height: 385px;
+		width: 350px;
+		margin-left: 30px;
+		padding-bottom: 240px;
+	}
+    .ellipse {
+        display: none;
+    }
+    .bakery{
+		padding: 0 0 0 50px;
+	}
+	#cake{
+		padding: 0 10px 0 0;
+	}
+	#donut{
+		padding: 0 10px 0 0;
+	}
+	.socials{
+		display: flex;
+		justify-content-center;
+		align-items-center;
+	}
+	.soc1{
+		padding: 0 30px 0 30px;
+	}
+	.soc2{
+		padding: 0 30px 0 0;
+	}
+	.soc3{
+		padding: 0 30px 0 0;
+	}
+	.soc4{
+		padding: 0 30px 0 0;
+	}
+	.soc5{
+		padding: 0 30px 0 0;
+	}
+	.soc6{
+		padding: 0 30px 0 0;
+	}
+	.navbar-toggler{
+		margin: 0 10px 0 0;
+	}
+	.Line1{
+		padding: 0 0 0 20px;
+	}
+	.Line2{
+		padding: 0 0 0 20px;
+	}
+	.Line3{
+		padding: 0 0 0 20px;
+	}
+	.Line4{
+		padding: 0 0 0 20px;
+	}
+	.Line5{
+		padding: 0 0 0 20px;
+	}
+	.ellipse2{
+		display: none;
+	}
+	.ellipse3{
+		display: none;
+	}
+}
+@media screen and (max-width: 380px){
+	.lady{
+		height: 375px;
+		width: 375px;
+		position: relative;
+		right: 20px;
+		padding-bottom: 230px;
+		padding-right: 40px;
+	}
+	.bakery{
+		position: relative;
+		right: 25px;
+	}
+	.soc1{
+		padding: 0 25px 0 20px;
+	}
+	.ellipse2{
+		display: none;
+	}
+	.ellipse3{
+		display: none;
+	}
+}
+@media screen and (max-width: 325px){
+	.lady{
+		height: 275px;
+		width: 275px;
+		padding: 0 30px 132px 30px;
+	}
+	.bakery{
+		height: 225px;
+		width: 225px;
+		position: relative;
+		right: 55px;
+	}
+	.soc1{
+		padding-left: 0px;
+	}
+	.soc2{
+		padding-right: 20px;
+	}
+	.soc3{
+		padding-right: 20px;
+	}
+	.soc4{
+		padding-right: 20px;
+	}
+	.soc5{
+		padding-right: 20px;
+	}
+	.ellipse2{
+		display: none;
+	}
+	.ellipse3{
+		display: none;
+	}
+}
